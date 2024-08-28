@@ -1,0 +1,72 @@
+:root {
+    --bg-color: #000;
+    --tex-color: #fff;
+    --btn-bg-color: #f6ee03;
+    --btn-text-color: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.container h1{
+    color: var(--tex-color);
+}
+
+.container .toggle-btn{
+    background-color: var(--btn-bg-color);
+    padding: 12px 20px;
+    color: var(--btn-text-color);
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+[data-theme = 'blue']{
+    --bg-color: #0430f6;
+    --tex-color: #b50c0c;
+    --btn-bg-color: #7b016f;
+    --btn-text-color: #f6ad03;
+}
+[data-theme = 'dark']{
+    --bg-color: #fff;
+    --tex-color: #000;
+    --btn-bg-color: #000;
+    --btn-text-color: #f6ee03;
+}
+
+
+
+
+/* Using classList */
+/* body.light {
+    background-color: rgba(255, 0, 234, 0.864);
+}
+
+body.dark {
+    background-color: rgb(255, 128, 0);
+}
+
+.container .toggle-btn.light {
+    background-color: #000;
+    color: #fff;
+}
+.container .toggle-btn.dark {
+    background-color: #fff;
+    color: #000;
+} */
