@@ -1,0 +1,58 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+
+.loader {
+    display: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.loader.show{
+    display: block;
+}
+
+ .refresh-button {
+    padding: 12px 20px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.quote-wrapper, .quote-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-wrapper .quote-item p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 25%;
+}
+
+.quote-item img {
+    height: 300px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.quote-wrapper.hide{
+    display: none;
+}
