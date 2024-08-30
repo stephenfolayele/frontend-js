@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.loader {
+    display: none;
+    font-size: 35px;
+    margin: 40px auto;
+}
+
+.loader.show-loader {
+    display: block;
+}
+
+.names-list.hide-user-list {
+    display: none;
+}
