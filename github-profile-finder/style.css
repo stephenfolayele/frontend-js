@@ -1,0 +1,13 @@
+
+
+.loading {
+    display: none;
+}
+
+.loading.show {
+    display: block;
+}
+
+.github-profile-details.hide {
+    display: none;
+}
