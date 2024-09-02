@@ -41,3 +41,11 @@ body {
     top: 0%;
     width: 100%;
 }
+
+.content {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 30px;
+}
